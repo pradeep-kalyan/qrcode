@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Dancing+Script:wght@400..700&family=Electrolize&family=Great+Vibes&family=Hurricane&family=Lavishly+Yours&family=Lexend+Peta:wght@100..900&family=Parisienne&display=swap");
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer components {
+  .text-head {
+    @apply font-mono text-xl text-gray-500;
+  }
+  .input-clr{
+    @apply w-[300px] h-[30px] font-audio p-2 rounded-lg hover:ring-4;
+  }
+}
+
